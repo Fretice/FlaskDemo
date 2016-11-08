@@ -13,7 +13,7 @@ class Role(db.Model):
         return '<Role %r>' % self.name
 
 
-class User(db.Model):
+class User(UserMixin, db.Model):
     __tablename__ = 'users'
     id = db.Column(db.Integer, primary_key=True)
     username = db.Column(db.String(64), unique=True, index=True)
@@ -36,5 +36,7 @@ class User(db.Model):
     def load_user(user_id):
         return User.query.get(int(user_id))
 
+    def is_active(self):
+        return True;
     def __repr__(self):
         return '<User %r>' % self.username
