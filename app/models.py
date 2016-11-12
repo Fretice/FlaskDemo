@@ -43,7 +43,7 @@ class User(UserMixin, db.Model):
     about_me = db.Column(db.Text())
     member_since=db.Column(db.DateTime(), default=datetime.utcnow)
     last_seen = db.Column(db.DateTime(), default=datetime.utcnow)
-
+    confirmed = db.Column(db.Boolean, default=True)
     def ping(self):
         self.last_seen = datetime.utcnow()
         db.session.add(self)
