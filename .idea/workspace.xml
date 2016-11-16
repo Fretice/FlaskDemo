@@ -2,10 +2,69 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b9f305e-39dc-436e-9551-3ccc596096e8" name="Default" comment="加入用户Logo字段与文章字段内容 目前存在的问题为无法判定用户角色具有权限问题">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/static/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/_macros.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/_posts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/versions/da7d0db196fb_add_post_colume_to_user.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/ForgeryPy-0.1.dist-info/DESCRIPTION.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/ForgeryPy-0.1.dist-info/INSTALLER" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/ForgeryPy-0.1.dist-info/METADATA" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/ForgeryPy-0.1.dist-info/RECORD" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/ForgeryPy-0.1.dist-info/WHEEL" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/ForgeryPy-0.1.dist-info/metadata.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/ForgeryPy-0.1.dist-info/top_level.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/LICENSE" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/cities" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/colors" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/company_names" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/continents" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/countries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/country_code_top_level_domains" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/currency_codes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/currency_descriptions" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/female_first_names" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/frequencies" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/genders" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/industries" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/job_title_suffixes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/job_titles" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/languages" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/last_names" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/locations" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/lorem_ipsum" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/male_first_names" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/name_suffixes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/name_titles" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/province_abbrevs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/provinces" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/races" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/shirt_sizes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/state_abbrevs" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/states" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/street_names" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/street_suffixes" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/top_level_domains" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries/zones" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/dictionaries_loader.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/__init__.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/address.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/basic.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/currency.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/date.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/internet.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/lorem_ipsum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/name.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/forgery_py/forgery/personal.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-dev.sqlite" afterPath="$PROJECT_DIR$/data-dev.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/views.py" afterPath="$PROJECT_DIR$/app/main/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/user.html" afterPath="$PROJECT_DIR$/app/templates/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/py3env/pip-selfcheck.json" afterPath="$PROJECT_DIR$/py3env/pip-selfcheck.json" />
     </list>
     <ignored path="flaskDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,99 +85,13 @@
     <favorites_list name="flaskDemo" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="user.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/user.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/templates/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="166">
-              <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-107">
-              <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
-              <folding>
-                <element signature="e#0#14#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
-              <folding>
-                <element signature="e#0#29#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/main/forms.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="48" column="10" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="10" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="edit_profile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/edit_profile.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
-              <caret line="28" column="58" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="58" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="CSS File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -156,11 +129,15 @@
         <option value="$PROJECT_DIR$/app/templates/base.html" />
         <option value="$PROJECT_DIR$/app/templates/edit_profile.html" />
         <option value="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/flask_bootstrap/__init__.py" />
+        <option value="$PROJECT_DIR$/app/templates/_posts.html" />
+        <option value="$PROJECT_DIR$/app/static/style.css" />
         <option value="$PROJECT_DIR$/app/templates/user.html" />
         <option value="$PROJECT_DIR$/manage.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/templates/_macros.html" />
         <option value="$PROJECT_DIR$/app/main/views.py" />
         <option value="$PROJECT_DIR$/app/templates/index.html" />
+        <option value="$PROJECT_DIR$/config.py" />
       </list>
     </option>
   </component>
@@ -200,7 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -219,77 +196,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="flaskDemo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -299,6 +208,7 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -598,24 +508,24 @@
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23333333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23712121" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.4939394" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3287037" sideWeight="0.4939394" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24074075" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24074075" sideWeight="0.4969697" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -645,30 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/auth/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="4" column="20" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="28" column="41" selection-start-line="28" selection-start-column="27" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
@@ -712,7 +598,17 @@
         <state relative-caret-position="589">
           <caret line="34" column="27" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
+            <element signature="e#2330#2795#0" expanded="false" />
+            <element signature="e#2839#2989#0" expanded="false" />
+            <element signature="e#3031#3133#0" expanded="false" />
+            <element signature="e#3175#3213#0" expanded="false" />
+            <element signature="e#3291#3631#0" expanded="false" />
+            <element signature="e#3662#3725#0" expanded="false" />
+            <element signature="e#3774#3833#0" expanded="false" />
+            <element signature="e#3897#3950#0" expanded="false" />
+            <element signature="e#4001#4057#0" expanded="false" />
+            <element signature="e#4126#4161#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -774,7 +670,17 @@
         <state relative-caret-position="399">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
+            <element signature="e#2330#2795#0" expanded="false" />
+            <element signature="e#2839#2989#0" expanded="false" />
+            <element signature="e#3031#3133#0" expanded="false" />
+            <element signature="e#3175#3213#0" expanded="false" />
+            <element signature="e#3291#3631#0" expanded="false" />
+            <element signature="e#3662#3725#0" expanded="false" />
+            <element signature="e#3774#3833#0" expanded="false" />
+            <element signature="e#3897#3950#0" expanded="false" />
+            <element signature="e#4001#4057#0" expanded="false" />
+            <element signature="e#4126#4161#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -805,7 +711,17 @@
         <state relative-caret-position="0">
           <caret line="0" column="6" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
           <folding>
-            <element signature="e#0#14#0" expanded="true" />
+            <element signature="e#0#14#0" expanded="false" />
+            <element signature="e#2330#2795#0" expanded="false" />
+            <element signature="e#2839#2989#0" expanded="false" />
+            <element signature="e#3031#3133#0" expanded="false" />
+            <element signature="e#3175#3213#0" expanded="false" />
+            <element signature="e#3291#3631#0" expanded="false" />
+            <element signature="e#3662#3725#0" expanded="false" />
+            <element signature="e#3774#3833#0" expanded="false" />
+            <element signature="e#3897#3950#0" expanded="false" />
+            <element signature="e#4001#4057#0" expanded="false" />
+            <element signature="e#4126#4161#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -908,13 +824,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/venv/local/lib/python2.7/site-packages/flask_sqlalchemy/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17556">
@@ -967,6 +876,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/static/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="107" column="0" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/_posts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="22" selection-start-line="30" selection-start-column="22" selection-end-line="30" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="154" column="13" selection-start-line="154" selection-start-column="4" selection-end-line="154" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#14#0" expanded="false" />
+            <element signature="e#2330#2795#0" expanded="false" />
+            <element signature="e#2839#2989#0" expanded="false" />
+            <element signature="e#3031#3133#0" expanded="false" />
+            <element signature="e#3175#3213#0" expanded="false" />
+            <element signature="e#3291#3631#0" expanded="false" />
+            <element signature="e#3662#3725#0" expanded="false" />
+            <element signature="e#3774#3833#0" expanded="false" />
+            <element signature="e#3897#3950#0" expanded="false" />
+            <element signature="e#4001#4057#0" expanded="false" />
+            <element signature="e#4126#4161#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/user.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="741">
+          <caret line="39" column="14" selection-start-line="39" selection-start-column="14" selection-end-line="39" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main/forms.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="48" column="10" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#30#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/edit_profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
@@ -977,62 +940,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="-171">
           <caret line="28" column="58" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="58" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/templates/user.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="4" column="24" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/main/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="48" column="10" selection-start-line="48" selection-start-column="4" selection-end-line="48" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-107">
-          <caret line="82" column="67" selection-start-line="82" selection-start-column="67" selection-end-line="82" selection-end-column="67" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/main/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="62" selection-start-line="14" selection-start-column="62" selection-end-line="14" selection-end-column="62" />
+        <state relative-caret-position="369">
+          <caret line="20" column="75" selection-start-line="20" selection-start-column="65" selection-end-line="20" selection-end-column="75" />
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/templates/_macros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-57">
+          <caret line="0" column="37" selection-start-line="0" selection-start-column="27" selection-end-line="0" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="15" />
+        <state relative-caret-position="266">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="13" column="63" selection-start-line="13" selection-start-column="63" selection-end-line="13" selection-end-column="63" />
           <folding />
         </state>
       </provider>
