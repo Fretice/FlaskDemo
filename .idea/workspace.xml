@@ -1,130 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5b9f305e-39dc-436e-9551-3ccc596096e8" name="Default" comment="加入markdown编辑器JS 加入文章链接页面 加入文章编辑器页面">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/edit_post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/templates/post.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/bin/markdown_py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Flask_PageDown-0.2.2.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Flask_PageDown-0.2.2.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Flask_PageDown-0.2.2.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Flask_PageDown-0.2.2.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Flask_PageDown-0.2.2.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Flask_PageDown-0.2.2.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Flask_PageDown-0.2.2.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Markdown-2.6.7.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Markdown-2.6.7.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Markdown-2.6.7.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Markdown-2.6.7.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Markdown-2.6.7.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Markdown-2.6.7.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/Markdown-2.6.7.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach-1.5.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach-1.5.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach-1.5.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach-1.5.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach-1.5.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach-1.5.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach-1.5.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach/callbacks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach/encoding.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach/sanitizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/bleach/version.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/flask_pagedown/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/flask_pagedown/fields.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/flask_pagedown/widgets.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib-0.9999999.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib-0.9999999.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib-0.9999999.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib-0.9999999.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib-0.9999999.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib-0.9999999.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib-0.9999999.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/constants.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/_base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/alphabeticalattributes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/inject_meta_charset.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/lint.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/optionaltags.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/sanitizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/filters/whitespace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/html5parser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/ihatexml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/inputstream.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/sanitizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/serializer/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/serializer/htmlserializer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/tokenizer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treeadapters/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treeadapters/sax.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treebuilders/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treebuilders/_base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treebuilders/dom.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treebuilders/etree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treebuilders/etree_lxml.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treewalkers/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treewalkers/_base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treewalkers/dom.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treewalkers/etree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treewalkers/genshistream.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treewalkers/lxmletree.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/treewalkers/pulldom.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/trie/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/trie/_base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/trie/datrie.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/trie/py.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/html5lib/utils.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/__main__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/__version__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/blockparser.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/blockprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/abbr.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/admonition.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/attr_list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/codehilite.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/def_list.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/extra.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/fenced_code.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/footnotes.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/headerid.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/meta.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/nl2br.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/sane_lists.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/smart_strong.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/smarty.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/tables.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/toc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/extensions/wikilinks.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/inlinepatterns.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/odict.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/postprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/preprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/serializers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/treeprocessors.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/markdown/util.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six-1.10.0.dist-info/DESCRIPTION.rst" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six-1.10.0.dist-info/INSTALLER" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six-1.10.0.dist-info/METADATA" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six-1.10.0.dist-info/RECORD" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six-1.10.0.dist-info/WHEEL" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six-1.10.0.dist-info/metadata.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six-1.10.0.dist-info/top_level.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/py3env/lib/python3.5/site-packages/six.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/static/style.css" afterPath="$PROJECT_DIR$/app/static/styles.css" />
+    <list default="true" id="5b9f305e-39dc-436e-9551-3ccc596096e8" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data-dev.sqlite" afterPath="$PROJECT_DIR$/data-dev.sqlite" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/__init__.py" afterPath="$PROJECT_DIR$/app/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/forms.py" afterPath="$PROJECT_DIR$/app/main/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main/views.py" afterPath="$PROJECT_DIR$/app/main/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models.py" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/_posts.html" afterPath="$PROJECT_DIR$/app/templates/_posts.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/base.html" afterPath="$PROJECT_DIR$/app/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/index.html" afterPath="$PROJECT_DIR$/app/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/templates/user.html" afterPath="$PROJECT_DIR$/app/templates/user.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config.py" afterPath="$PROJECT_DIR$/config.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/manage.py" afterPath="$PROJECT_DIR$/manage.py" />
     </list>
     <ignored path="flaskDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -149,8 +35,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-490">
-              <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+            <state relative-caret-position="19">
+              <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -249,8 +135,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -585,7 +471,14 @@
       <option name="project" value="LOCAL" />
       <updated>1479308414776</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="加入markdown编辑器JS 加入文章链接页面 加入文章编辑器页面">
+      <created>1479570761786</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1479570761786</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TodoView">
@@ -601,7 +494,7 @@
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25227273" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2560606" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287037" sideWeight="0.5030303" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -996,8 +889,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-490">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        <state relative-caret-position="19">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
           <folding />
         </state>
       </provider>
