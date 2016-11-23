@@ -10,6 +10,7 @@ class Config:
     FLASK_POSTS_PER_PAGE = 10
     FLASKY_FOLLOWERS_PER_PAGE = 10
     FLASK_FOLLOWERS_PER_PAGE = 10
+    FLASK_COMMENTS_PER_PAGE = 10
     @staticmethod
     def init_app(app):
         pass
